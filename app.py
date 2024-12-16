@@ -69,7 +69,7 @@ def predict_learning_style():
         predicted_class = int(np.argmax(predictions))
         
         # Label gaya belajar
-        learning_styles = ['Auditory', 'Visual', 'Kinesthetic']
+        learning_styles = ['Visual', 'Auditory', 'Kinesthetic']
         
         # Konversi probabilitas ke float biasa
         prob_dict = {
